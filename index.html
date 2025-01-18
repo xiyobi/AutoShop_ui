@@ -118,18 +118,18 @@
 
 <body class="flex flex-col min-h-screen bg-gray-50">
     <!-- Header -->
-    <header class="bg-blue-600 text-white shadow-lg relative">
-        <div class="container mx-auto px-4 py-4">
+    <header class="bg-white text-gray-800 shadow-lg relative">
+        <div class="container mx-auto px-6 py-6">
             <div class="flex items-center justify-between">
-                <div class="logo text-2xl font-bold">YouCar.</div>
+                <div class="logo text-3xl font-bold text-black">YouCar.</div>
                 
                 <!-- Desktop Navigation -->
-                <nav class="hidden md:flex space-x-6">
-                    <a href="/" class="hover:text-blue-200">Home</a>
-                    <a href="/catalog" class="hover:text-blue-200">Catalog</a>
-                    <a href="/about" class="hover:text-blue-200">About Us</a>
-                    <a href="/news" class="hover:text-blue-200">News</a>
-                    <a href="/contacts" class="hover:text-blue-200">Contacts</a>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="/" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Home</a>
+                    <a href="/catalog" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Catalog</a>
+                    <a href="/about" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">About Us</a>
+                    <a href="/news" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">News</a>
+                    <a href="/contacts" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Contacts</a>
                 </nav>
 
                 <!-- Desktop Header Elements -->
@@ -140,13 +140,13 @@
                         </label>
                     </div>
                     <div class="auth-buttons space-x-2">
-                        <button class="px-4 py-2 border rounded hover:bg-blue-500">Login</button>
-                        <button class="px-4 py-2 border rounded hover:bg-blue-500">Register</button>
+                        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-lg">Login</button>
+                        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-lg">Register</button>
                     </div>
                     <div class="language-select">
                         <select
                             id="language-selector"
-                            class="bg-transparent border-none text-white cursor-pointer"
+                            class="bg-transparent border-none text-gray-800 cursor-pointer"
                             aria-label="Select Language"
                         >
                             <option value="en" selected>English</option>
@@ -157,7 +157,7 @@
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden p-2 hover:bg-blue-500 rounded" id="mobile-menu-button" aria-label="Menu">
+                <button class="md:hidden p-2 hover:bg-gray-100 rounded text-gray-800" id="mobile-menu-button" aria-label="Menu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
                     </svg>
