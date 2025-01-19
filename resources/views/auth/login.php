@@ -46,7 +46,7 @@
         <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 md:p-12">
             <h2 class="text-2xl font-bold text-center mb-8">Login to Your Account</h2>
             
-            <form class="space-y-6" novalidate>
+            <form id="login-form" class="space-y-6" novalidate onsubmit="login()">
                 <!-- Email Field -->
                 <div>
                     <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
@@ -90,7 +90,7 @@
                 <div class="text-center">
                     <p class="text-sm text-gray-600">
                         Don't have an account?
-                        <a href="register.html" class="font-medium text-blue-600 hover:text-blue-500">Sign up</a>
+                        <a href="/register" class="font-medium text-blue-600 hover:text-blue-500">Sign up</a>
                     </p>
                 </div>
             </form>
@@ -128,8 +128,25 @@
             </div>
         </div>
     </footer>
+    <script>
+        async function login() {
+            event.preventDefault();
+            let form = document.getElementById("login-form"),
+                formData = new FormData(form);
+            const { default: apiFetch } = await import('/js/utils/allFetch.js');
+            await apiFetch('/login', {
+                method: "Post",
+                body: formData
+            }).then(data =>{
+                localStorage.setItem('token', data.token);
+                window.location.href='/dashboard';
+            })
+        }
+
+    </script>
 
     <script>
+
         // Mobile menu toggle
         const menuButton = document.getElementById('menuButton');
         const mobileMenu = document.getElementById('mobileMenu');

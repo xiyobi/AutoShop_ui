@@ -52,7 +52,7 @@
     <main class="max-w-md mx-auto py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-white py-6 sm:py-8 px-4 sm:px-6 shadow rounded-lg sm:px-10">
             <h2 class="mb-4 sm:mb-6 text-center text-2xl sm:text-3xl font-extrabold text-gray-900">Create your account</h2>
-            <form class="mb-0 space-y-6" action="#" method="POST" novalidate>
+            <form class="mb-0 space-y-6" action="#" method="POST" novalidate id="register-form" onsubmit="register()">
                 <div>
                     <label for="full-name" class="block text-sm font-medium text-gray-700">Full Name</label>
                     <div class="mt-1">
@@ -150,6 +150,31 @@
         });
     </script>
     <script src="script.js"></script>
+    <script>
+        async function register() {
+            event.preventDefault();
+            let form = document.getElementById("register-form"),
+                formData = new FormData(form);
+            const { default: apiFetch } = await import('/js/utils/allFetch.js');
+            await apiFetch('/register', {
+                method: "Post",
+                body: formData
+            }).then(data =>{
+                localStorage.setItem('token', data.token);
+                window.location.href='/home';
+            })
+                .catch((error)=>{
+                    console.error(error.data.errors);
+                    document.getElementById('error').innerHTML = "";
+                    Object.keys(error.data.errors).forEach(err => {
+                        document.getElementById('error').innerHTML += `
+                <p class="text-red-500 mt-1">${error.data.errors[err]}</p>`;
+
+                    })
+                });
+        }
+
+    </script>
 </body>
 </html>
 
