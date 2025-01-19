@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hyundai Solaris 2022 - Комфортный седан в отличном состоянии. Пробег всего 16,000 км. Доступен к покупке в автосалоне Autocapital.">
+    <meta name="keywords" content="Hyundai, Solaris, 2022, автомобиль, седан, продажа авто">
+    <meta property="og:title" content="Hyundai Solaris 2022 | YouCar">
+    <meta property="og:description" content="Белый Hyundai Solaris 2022 года с пробегом 16,000 км в автосалоне Autocapital">
+    <meta property="og:image" content="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg">
+    <title>Hyundai Solaris 2022 | YouCar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        const content = {
+            en: {
+                phone: "+1 234 567 8900",
+                email: "info@youcar.com",
+                search: "Search for vehicles...",
+                login: "Login",
+                register: "Register",
+                vehicles: "Vehicles",
+                commercial: "Commercial Transport",
+                motorcycles: "Motorcycles",
+                news: "News",
+                contacts: "Contacts",
+                home: "Home",
+                catalog: "Catalog",
+                quickLinks: "Quick Links",
+                manufacturers: "Manufacturers",
+                countries: "Countries",
+                contactUs: "Contact Us"
+            },
+            uz: {
+                phone: "+1 234 567 8900",
+                email: "info@youcar.com",
+                search: "Transport vositalarini qidirish...",
+                login: "Kirish",
+                register: "Ro'yxatdan o'tish",
+                vehicles: "Avtomobillar",
+                commercial: "Tijorat transporti",
+                motorcycles: "Mototsikllar",
+                news: "Yangiliklar",
+                contacts: "Kontaktlar",
+                home: "Asosiy",
+                catalog: "Katalog",
+                quickLinks: "Tezkor Havolalar",
+                manufacturers: "Ishlab chiqaruvchilar",
+                countries: "Mamlakatlar",
+                contactUs: "Biz bilan bog'laning"
+            }
+        };
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        function toggleLanguageDropdown() {
+            const dropdown = document.getElementById('language-dropdown');
+            dropdown.classList.toggle('hidden');
+        }
+
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(element => {
+                const key = element.getAttribute('data-lang');
+                if (content[lang][key]) {
+                    element.textContent = content[lang][key];
+                }
+            });
+            document.getElementById('language-dropdown').classList.add('hidden');
+            document.documentElement.lang = lang;
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('#language-button')) {
+                document.getElementById('language-dropdown').classList.add('hidden');
+            }
+        });
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Top Bar -->
+    <div class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+            <div class="flex items-center space-x-4">
+                <span class="text-sm hidden md:inline" data-lang="phone">+1 234 567 8900</span>
+                <span class="text-sm hidden md:inline" data-lang="email">info@youcar.com</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="flex space-x-2">
+                    <a href="#" class="text-sm hover:text-gray-300">Facebook</a>
+                    <a href="#" class="text-sm hover:text-gray-300">Twitter</a>
+                </div>
+                <div class="relative inline-block text-left">
+                    <button id="language-button"
+                        class="inline-flex items-center bg-transparent text-sm text-white hover:text-gray-300 focus:outline-none space-x-2 px-2 py-1"
+                        onclick="toggleLanguageDropdown()">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English" class="w-5 h-5 rounded-full" />
+                        <span>EN</span>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                    </button>
+                    <div id="language-dropdown"
+                        class="hidden absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+                        <div class="py-1" role="menu">
+                            <button onclick="setLanguage('en')"
+                                class="flex items-center space-x-2 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                <img src="https://flagcdn.com/w40/us.png" alt="English" class="w-5 h-5 rounded-full" />
+                                <span>English</span>
+                            </button>
+                            <button onclick="setLanguage('uz')"
+                                class="flex items-center space-x-2 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                <img src="https://flagcdn.com/w40/uz.png" alt="O'zbek" class="w-5 h-5 rounded-full" />
+                                <span>O'zbek</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <div class="flex items-center">
+                    <button class="md:hidden mr-4" onclick="toggleMobileMenu()">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                        </svg>
+                    </button>
+                    <a href="/" class="text-2xl font-bold text-blue-600">YouCar</a>
+
+                <div class="flex-1 max-w-xl mx-2 md:mx-8 hidden md:block">
+                    <div class="relative">
+                        <input type="text"
+                            class="w-full pl-4 pr-10 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                            placeholder="Search for vehicles..." data-lang="search">
+                        <button class="absolute right-3 top-2.5">
+                            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4 hidden md:flex">
+                    <button class="px-4 py-2 text-blue-600 hover:text-blue-800" data-lang="login">Login</button>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700" data-lang="register">Register</button>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <!-- Mobile Search -->
+            <div class="md:hidden px-4 py-2">
+                <div class="relative">
+                    <label>
+                        <input type="text"
+                            class="w-full pl-4 pr-10 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                            placeholder="Search for vehicles..." data-lang="search">
+                    </label>
+                    <button class="absolute right-3 top-2.5">
+                        <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden px-4 py-2">
+                <ul class="flex flex-col space-y-2">
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600 block py-2">Автомобили</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600 block py-2">Коммерческий транспорт</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600 block py-2">Мотоциклы</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600 block py-2">Новости</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600 block py-2">Контакты</a></li>
+                    <li class="pt-4">
+                        <button class="w-full px-4 py-2 text-blue-600 hover:text-blue-800 border border-blue-600 rounded-lg mb-2">Войти</button>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Регистрация</button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:block py-4">
+                <ul class="flex space-x-8">
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Автомобили</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Коммерческий транспорт</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Мотоциклы</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Новости</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-blue-600">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-50 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="text-sm">
+                <ol class="flex flex-wrap items-center space-x-2">
+                    <li><a href="#" class="text-gray-500 hover:text-blue-600">Главная</a></li>
+                    <li class="text-gray-500">/</li>
+                    <li><a href="#" class="text-gray-500 hover:text-blue-600">Каталог</a></li>
+                    <li class="text-gray-500">/</li>
+                    <li class="text-gray-900">Hyundai Solaris 2 Рестайлинг, 2022</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-start ">
+            <!-- Product Image Container -->
+            <div class="relative aspect-video" aria-label="Product Images">
+                <!-- Image Carousel -->
+                <div class="relative w-full h-[700px] overflow-hidden" x-data="{ activeSlide: 0 }">
+                    <div class="flex transition-transform duration-300" :style="{ transform: `translateX(-${activeSlide * 100}%)` }">
+                        <img
+                            src="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg"
+                            alt="Hyundai Solaris - Front View"
+                            class="w-full h-[700px] object-cover flex-shrink-0"
+                            loading="lazy"
+                        />
+                        <img
+                            src="https://example.com/solaris-side.jpg"
+                            alt="Hyundai Solaris - Side View"
+                            class="w-full h-[700px] object-cover flex-shrink-0"
+                            loading="lazy"
+                        />
+                        <img
+                            src="https://example.com/solaris-interior.jpg"
+                            alt="Hyundai Solaris - Interior View"
+                            class="w-full h-[700px] object-cover flex-shrink-0"
+                            loading="lazy"
+                        />
+                    </div>
+                    
+                    <!-- Navigation Buttons -->
+                    <button 
+                        @click="activeSlide = activeSlide === 0 ? 2 : activeSlide - 1"
+                        class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:bg-white"
+                        aria-label="Previous image">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <button 
+                        @click="activeSlide = activeSlide === 2 ? 0 : activeSlide + 1"
+                        class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:bg-white"
+                        aria-label="Next image">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                <span class="absolute top-4 right-4 px-3 py-1 text-sm font-semibold text-green-700 bg-green-100 rounded-full">
+                    В наличии
+                </span>
+            </div>
+
+            <!-- Product Details Container -->
+            <div class="p-6 space-y-6 max-w-[700px] w-full" >
+                <!-- Title and Basic Info -->
+                <div class="space-y-2 ">
+                    <h1 class="text-2xl font-bold text-gray-900">Hyundai Solaris, 2 Рестайлинг, 2022</h1>
+                    <p class="text-sm text-gray-500">16 Августа 2024 • 160 просмотров</p>
+                </div>
+
+                <!-- Price Section -->
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center bg-gray-50 p-4 rounded-lg">
+                        <div class="space-y-1">
+                            <p class="text-sm text-gray-500">
+                                <span data-lang="price">Цена</span>
+                                <span class="text-xs text-gray-400">(click to convert)</span>
+                            </p>
+                            <div x-data="{ currency: 'USD', rates: { USD: 1, UZS: 12000, RUB: 90 } }" class="space-y-1">
+                                <span class="text-3xl font-bold text-gray-900" x-text="formatPrice(19000 * rates[currency], currency)"></span>
+                                <div class="flex space-x-2 text-sm">
+                                    <button @click="currency = 'USD'" :class="currency === 'USD' ? 'text-blue-600' : 'text-gray-500'">USD</button>
+                                    <button @click="currency = 'UZS'" :class="currency === 'UZS' ? 'text-blue-600' : 'text-gray-500'">UZS</button>
+                                    <button @click="currency = 'RUB'" :class="currency === 'RUB' ? 'text-blue-600' : 'text-gray-500'">RUB</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <button class="text-gray-600 hover:text-blue-600 p-2" aria-label="Add to favorites">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                                </svg>
+                            </button>
+                            <button class="text-gray-600 hover:text-blue-600 p-2" aria-label="Add to cart">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </button>
+                            <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors" data-lang="buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specifications -->
+                <div class="space-y-4">
+                    <h2 class="text-lg font-semibold text-gray-900">Характеристики</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="space-y-2">
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Марка:</span>
+                                <span class="font-medium">Hyundai</span>
+                            </p>
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Модель:</span>
+                                <span class="font-medium">Solaris</span>
+                            </p>
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Год выпуска:</span>
+                                <span class="font-medium">2022</span>
+                            </p>
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Пробег:</span>
+                                <span class="font-medium">16,000 km</span>
+                            </p>
+                        </div>
+                        <div class="space-y-2">
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Цвет:</span>
+                                <span class="font-medium">Белый</span>
+                            </p>
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Двигатель:</span>
+                                <span class="font-medium">1.6 л / 130 л.с</span>
+                            </p>
+                            <p class="flex justify-between text-sm">
+                                <span class="text-gray-500">Страна:</span>
+                                <span class="font-medium">США</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seller Information -->
+                <div class="border-t pt-6">
+                    <h3 class="text-lg font-semibold mb-4">Продавец</h3>
+                    <div class="flex items-center space-x-4">
+                        <div>
+                            <p class="text-gray-900 font-medium">Иванов Алексей Иванович</p>
+                            <p class="text-sm text-gray-500">Автосалон "Autocapital"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Buttons -->
+                <div class="space-y-3">
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                        Написать продавцу
+                    </button>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button class="text-sm text-gray-700 bg-gray-100 py-2 px-4 rounded-lg hover:bg-gray-200 transition-colors">
+                            Пробег оригинал?
+                        </button>
+                        <button class="text-sm text-gray-700 bg-gray-100 py-2 px-4 rounded-lg hover:bg-gray-200 transition-colors">
+                            Какой срок доставки?
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Catalog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">News</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Favorites</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Car Manufacturers -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Manufacturers</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Toyota</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Honda</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">BMW</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Mercedes-Benz</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Volkswagen</a></li>
+                    </ul>
+                </div>
+
+                <!-- Countries -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Countries</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Germany</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Japan</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">USA</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">South Korea</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Italy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-300">Email: info@youcar.com</li>
+                        <li class="text-gray-300">Phone: +1 234 567 8900</li>
+                        <li class="text-gray-300">Address: 123 Car Street</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2024 YouCar. All rights reserved. Powered by UserTech</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
