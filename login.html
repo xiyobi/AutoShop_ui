@@ -6,7 +6,7 @@
     <title>Login - Car Dealership</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 min-h-screen flex flex-col">
     <!-- Header Section -->
     <header class="bg-[#1E293B] shadow-md">
         <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -42,8 +42,8 @@
     </header>
 
     <!-- Login Form Section -->
-    <main class="container mx-auto px-4 py-8">
-        <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8">
+    <main class="flex-grow container mx-auto px-4 py-8 flex items-center justify-center md:py-12">
+        <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 md:p-12">
             <h2 class="text-2xl font-bold text-center mb-8">Login to Your Account</h2>
             
             <form class="space-y-6" novalidate>
@@ -98,32 +98,32 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-800 text-white py-8 mt-12">
+    <footer class="bg-gray-800 py-6 mt-auto text-white">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
-                    <p>Email: info@cardealer.com</p>
+                    <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+                    <p class="mb-2">Email: info@cardealer.com</p>
                     <p>Phone: (123) 456-7890</p>
                 </div>
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
+                    <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
+                    <ul class="space-y-1.5">
                         <li><a href="#" class="hover:text-blue-400">About Us</a></li>
                         <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
                         <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
-                    <div class="flex space-x-4">
+                    <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
+                    <div class="flex space-x-6">
                         <a href="#" class="hover:text-blue-400">Facebook</a>
                         <a href="#" class="hover:text-blue-400">Twitter</a>
                         <a href="#" class="hover:text-blue-400">Instagram</a>
                     </div>
                 </div>
             </div>
-            <div class="mt-8 text-center">
+            <div class="mt-6 text-center text-sm text-gray-400">
                 <p>&copy; 2024 CarDealer. All rights reserved.</p>
             </div>
         </div>
