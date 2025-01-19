@@ -10,6 +10,7 @@
     <meta property="og:image" content="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg">
     <title>Hyundai Solaris 2022 | YouCar</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>
         const content = {
             en: {
@@ -28,7 +29,9 @@
                 quickLinks: "Quick Links",
                 manufacturers: "Manufacturers",
                 countries: "Countries",
-                contactUs: "Contact Us"
+                contactUs: "Contact Us",
+                buy: "Buy",
+                price: "Price"
             },
             uz: {
                 phone: "+1 234 567 8900",
@@ -46,9 +49,18 @@
                 quickLinks: "Tezkor Havolalar",
                 manufacturers: "Ishlab chiqaruvchilar",
                 countries: "Mamlakatlar",
-                contactUs: "Biz bilan bog'laning"
+                contactUs: "Biz bilan bog'laning",
+                buy: "Sotib olish",
+                price: "Narx"
             }
         };
+        
+        function formatPrice(amount, currency) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: currency
+            }).format(amount);
+        }
 
         function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
@@ -133,6 +145,7 @@
                         </svg>
                     </button>
                     <a href="/" class="text-2xl font-bold text-blue-600">YouCar</a>
+                </div>
 
                 <div class="flex-1 max-w-xl mx-2 md:mx-8 hidden md:block">
                     <div class="relative">
@@ -221,22 +234,22 @@
                 <div class="relative w-full h-[700px] overflow-hidden" x-data="{ activeSlide: 0 }">
                     <div class="flex transition-transform duration-300" :style="{ transform: `translateX(-${activeSlide * 100}%)` }">
                         <img
-                            src="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg"
-                            alt="Hyundai Solaris - Front View"
-                            class="w-full h-[700px] object-cover flex-shrink-0"
-                            loading="lazy"
+                                src="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg"
+                                alt="Hyundai Solaris - Front View"
+                                class="w-full h-[700px] object-cover flex-shrink-0"
+                                loading="lazy"
                         />
                         <img
-                            src="https://example.com/solaris-side.jpg"
-                            alt="Hyundai Solaris - Side View"
-                            class="w-full h-[700px] object-cover flex-shrink-0"
-                            loading="lazy"
+                                src="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg"
+                                alt="Hyundai Solaris - Side View"
+                                class="w-full h-[700px] object-cover flex-shrink-0"
+                                loading="lazy"
                         />
                         <img
-                            src="https://example.com/solaris-interior.jpg"
-                            alt="Hyundai Solaris - Interior View"
-                            class="w-full h-[700px] object-cover flex-shrink-0"
-                            loading="lazy"
+                                src="https://i.ytimg.com/vi/0id5rVsErUw/maxresdefault.jpg"
+                                alt="Hyundai Solaris - Interior View"
+                                class="w-full h-[700px] object-cover flex-shrink-0"
+                                loading="lazy"
                         />
                     </div>
                     
@@ -372,10 +385,6 @@
             </div>
         </div>
     </div>
-    <div>
-
-    </div>
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white mt-16">
         <div class="container mx-auto px-4 py-12">

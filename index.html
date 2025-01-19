@@ -8,12 +8,16 @@
         html,
         body {
             position: relative;
-            /*height: 100%;*/
-        }
+            <title>Hyundai Solaris 2022         <script>
+            function formatPrice(amount, currency) {
+                return new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency        <a href="/" class="text-2xl font-bold text-blue-600">YouCar</a>
+    </div>
 
-        body {
-            background: #eee;
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    <div class="flex-1 max-w-xl mx-2 md:mx-8 hidden md:block">
+        },
+        uz: {
             font-size: 14px;
             color: #000;
             margin: 0;
@@ -21,9 +25,11 @@
         }
 
         swiper-container {
-            width: 100%;
-            /*height: 100%;*/
-        }
+            contactUs: "Contact Us",
+            price: "Price",
+            buy: "Buy"
+        },
+        uz: {
 
         swiper-slide {
             text-align: center;
@@ -35,8 +41,11 @@
         }
 
         swiper-slide img {
-            display: block;
-            width: 100%;
+            contactUs: "Biz bilan bog'laning",
+            price: "Narx",
+            buy: "Sotib olish"
+        }
+    };
             /*height: 100%;*/
             object-fit: cover;
         }
@@ -97,8 +106,17 @@
         "telephone": "+1-234-567-8900"
     }
     </script>
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+    function formatPrice(amount, currency) {
+        return new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: currency
+        }).format(amount);
+    }
+    </script>
+    </head>
             const mobileMenuButton = document.getElementById('mobile-menu-button');
             const closeMenuButton = document.getElementById('close-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
@@ -182,7 +200,9 @@
                         </nav>
                         <div class="mt-8">
                             <div class="search-bar mb-6">
-                                <input type="search" placeholder="Search cars..." class="w-full px-4 py-2 rounded text-gray-800">
+                                <label>
+                                    <input type="search" placeholder="Search cars..." class="w-full px-4 py-2 rounded text-gray-800">
+                                </label>
                             </div>
                             <div class="auth-buttons space-y-2 mb-6">
                                 <button class="w-full px-4 py-2 border rounded hover:bg-blue-500">Login</button>
@@ -209,9 +229,7 @@
     <!-- Main Content -->
     <!-- Main Content -->
     <main class="flex-grow container mx-auto px-4 py-8">
-        <!-- Featured Cars Carousel -->
-
-
+        
         <!-- Hero Section -->
 
         <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" navigation="true">
@@ -251,7 +269,6 @@
             </div></swiper-slide>
 
         </swiper-container>
-        </section>
 
         <!-- Car Selection Filter -->
         <section class="car-filter mb-12 bg-white p-6 rounded-lg shadow">
@@ -263,9 +280,15 @@
                     <label><input type="radio" name="condition"> With Mileage</label>
                 </div>
                 <div class="car-details space-y-4">
-                    <select class="w-full p-2 border rounded"><option>Make</option></select>
-                    <select class="w-full p-2 border rounded"><option>Model</option></select>
-                    <select class="w-full p-2 border rounded"><option>Country</option></select>
+                    <label>
+                        <select class="w-full p-2 border rounded"><option>Make</option></select>
+                    </label>
+                    <label>
+                        <select class="w-full p-2 border rounded"><option>Model</option></select>
+                    </label>
+                    <label>
+                        <select class="w-full p-2 border rounded"><option>Country</option></select>
+                    </label>
                     <select class="w-full p-2 border rounded"><option>Year</option></select>
                 </div>
                 <div class="price-range">
@@ -303,9 +326,6 @@
         </section>
     </main>
 
-    <!-- Additional Sections -->
-
-    <main class="container mx-auto px-4 py-8">
         <section class="why-choose-us mb-12 bg-white p-8 rounded-lg shadow">
             <h2 class="text-2xl font-semibold mb-6">Why Choose Us</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -350,26 +370,6 @@
                 <span class="lang-ru">Популярные Бренды</span>
                 <span class="lang-uz">Mashhur Brendlar</span>
             </h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREZenDaqAuaBWIr90FmUUNSFYiC_6uRdQYQA&s" alt="Acura" class="w-full h-auto">
-                </div>
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://logos-world.net/wp-content/uploads/2021/03/Honda-Logo.png" alt="Honda" class="w-full h-auto">
-                </div>
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://logos-world.net/wp-content/uploads/2021/03/Hyundai-Logo.png" alt="Hyundai" class="w-full h-auto">
-                </div>
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5RJoR08-8kqKE9LNE5cUut7-4CjuUieT5Tp--V_IoreMMAfLYlwS7zbwnrAU30botcyI&usqp=CAU" alt="Toyota" class="w-full h-auto">
-                </div>
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv9xhf8q20inca3BPk1MuKvPbxOwpei_IDag&s" alt="Kia" class="w-full h-auto">
-                </div>
-                <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiAJXZUXIBjKeT9NrOadwyM7Md-8P5q5V5zw&s" alt="Geely" class="w-full h-auto">
-                </div>
-            </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
                 <div class="brand p-6 bg-white rounded-lg shadow hover:shadow-xl transition-shadow">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREZenDaqAuaBWIr90FmUUNSFYiC_6uRdQYQA&s" alt="Acura" class="w-full h-auto">
@@ -442,11 +442,7 @@
                     <div class="p-4">
                         <h3 class="font-semibold mb-2">2024 Model Comparison</h3>
                         <p class="text-gray-600">Detailed comparison of latest models...</p>
-                    </div>
-                </article>
-                <article class="bg-white rounded-2xl shadow overflow-hidden">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjhS97jRNJO_EmjaxTa6zV5dyHHkf5UriNzw&s" alt="Car Comparison" class="w-full rounded-t-2xl object-cover">
-                    <div class="p-4">
+                    <!-- Footer -->
                         <h3 class="font-semibold mb-2">2024 Model Comparison</h3>
                         <p class="text-gray-600">Detailed comparison of latest models...</p>
                     </div>
@@ -577,9 +573,6 @@
                     </div>
                 </div>
             </div>
-        </footer>
-    </main>
-
         </body>
         </html>
-
+        </html>
