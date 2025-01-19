@@ -8,16 +8,12 @@
         html,
         body {
             position: relative;
-            <title>Hyundai Solaris 2022         <script>
-            function formatPrice(amount, currency) {
-                return new Intl.NumberFormat('en-US', {
-                    style: 'currency',
-                    currency        <a href="/" class="text-2xl font-bold text-blue-600">YouCar</a>
-    </div>
+            /*height: 100%;*/
+        }
 
-    <div class="flex-1 max-w-xl mx-2 md:mx-8 hidden md:block">
-        },
-        uz: {
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             font-size: 14px;
             color: #000;
             margin: 0;
@@ -25,11 +21,9 @@
         }
 
         swiper-container {
-            contactUs: "Contact Us",
-            price: "Price",
-            buy: "Buy"
-        },
-        uz: {
+            width: 100%;
+            /*height: 100%;*/
+        }
 
         swiper-slide {
             text-align: center;
@@ -41,11 +35,8 @@
         }
 
         swiper-slide img {
-            contactUs: "Biz bilan bog'laning",
-            price: "Narx",
-            buy: "Sotib olish"
-        }
-    };
+            display: block;
+            width: 100%;
             /*height: 100%;*/
             object-fit: cover;
         }
@@ -63,18 +54,18 @@
     <meta property="og:image" content="https://youcar.com/images/og-image.jpg">
     <meta property="og:url" content="https://youcar.com">
     <meta property="og:type" content="website">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="YouCar - Premium Auto Dealership">
     <meta name="twitter:description" content="Find your dream car at YouCar. Professional guidance and financing options available.">
     <meta name="twitter:image" content="https://youcar.com/images/twitter-card.jpg">
-    
+
     <!-- Alternate Language Links -->
     <link rel="alternate" hreflang="en" href="https://youcar.com/en">
     <link rel="alternate" hreflang="ru" href="https://youcar.com/ru">
     <link rel="alternate" hreflang="uz" href="https://youcar.com/uz">
-    
+
     <!-- Styles and Scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -106,17 +97,8 @@
         "telephone": "+1-234-567-8900"
     }
     </script>
-    </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>
-    function formatPrice(amount, currency) {
-        return new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: currency
-        }).format(amount);
-    }
-    </script>
-    </head>
+        document.addEventListener('DOMContentLoaded', function() {
             const mobileMenuButton = document.getElementById('mobile-menu-button');
             const closeMenuButton = document.getElementById('close-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
@@ -136,57 +118,63 @@
 
 <body class="flex flex-col min-h-screen bg-gray-50">
     <!-- Header -->
-    <header class="bg-white text-gray-800 shadow-lg relative">
-        <div class="container mx-auto px-6 py-6">
+    <header class="bg-[#1E293B] text-white shadow-lg relative">
+        <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="logo text-3xl font-bold text-black">YouCar.</div>
-                
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <img src="https://cdn-images.dzcdn.net/images/cover/54a37c8606fffcb09794b9ce5887f56d/1900x1900-000000-80-0-0.jpg" alt="YouCar Logo" class="h-10 w-auto">
+                    <span class="text-2xl font-bold text-white">YouCar.</span>
+                </div>
+
                 <!-- Desktop Navigation -->
-                <nav class="hidden md:flex space-x-8">
-                    <a href="/" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Home</a>
-                    <a href="/catalog" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Catalog</a>
-                    <a href="/about" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">About Us</a>
-                    <a href="/news" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">News</a>
-                    <a href="/contacts" class="text-blue-600 hover:text-blue-800 text-lg px-2 py-1">Contacts</a>
+                <nav class="hidden lg:flex items-center justify-center flex-1 mx-8">
+                    <div class="flex space-x-8">
+                        <a href="/" class="text-white hover:text-[#3B82F6] text-base font-medium transition-colors">Home</a>
+                        <a href="/catalog" class="text-white hover:text-[#3B82F6] text-base font-medium transition-colors">Catalog</a>
+                        <a href="/about" class="text-white hover:text-[#3B82F6] text-base font-medium transition-colors">About Us</a>
+                        <a href="/news" class="text-white hover:text-[#3B82F6] text-base font-medium transition-colors">News</a>
+                        <a href="/contacts" class="text-white hover:text-[#3B82F6] text-base font-medium transition-colors">Contacts</a>
+                    </div>
                 </nav>
 
                 <!-- Desktop Header Elements -->
-                <div class="hidden md:flex items-center space-x-4">
-                    <div class="search-bar">
-                        <label>
-                            <input type="search" placeholder="Search cars..." class="px-4 py-2 rounded text-gray-800">
-                        </label>
+                <div class="hidden lg:flex items-center space-x-6">
+                    <div class="relative">
+                        <input type="search" 
+                            placeholder="Search cars..." 
+                            class="pl-10 pr-4 py-2 rounded-full bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#3B82F6] w-48"
+                            aria-label="Search">
+                        <svg class="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
                     </div>
-                    <div class="auth-buttons space-x-2">
-                        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-lg">Login</button>
-                        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-lg">Register</button>
+                    <div class="flex items-center space-x-4">
+                        <button class="px-4 py-2 text-white hover:text-[#3B82F6] font-medium transition-colors">Sign In</button>
+                        <button class="px-4 py-2 bg-[#3B82F6] text-white rounded-full hover:bg-blue-600 transition-colors font-medium">Sign Up</button>
                     </div>
-                    <div class="language-select">
-                        <select
-                            id="language-selector"
-                            class="bg-transparent border-none text-gray-800 cursor-pointer"
-                            aria-label="Select Language"
-                        >
-                            <option value="en" selected>English</option>
-                            <option value="ru">Русский</option>
-                            <option value="uz">Uzbek</option>
+                    <div class="border-l border-white/20 pl-6">
+                        <select class="bg-transparent text-white cursor-pointer focus:outline-none" aria-label="Select Language">
+                            <option value="en" class="text-gray-800">English</option>
+                            <option value="ru" class="text-gray-800">Русский</option>
+                            <option value="uz" class="text-gray-800">Uzbek</option>
                         </select>
                     </div>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden p-2 hover:bg-gray-100 rounded text-gray-800" id="mobile-menu-button" aria-label="Menu">
+                <button class="lg:hidden p-2 hover:bg-white/10 rounded-lg text-white transition-colors" id="mobile-menu-button" aria-label="Menu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
                     </svg>
                 </button>
 
                 <!-- Mobile Navigation Overlay -->
-                <div class="fixed inset-0 bg-blue-600 bg-opacity-95 z-50 hidden" id="mobile-menu">
+                <div class="fixed inset-0 bg-[#1E293B] z-50 hidden" id="mobile-menu">
                     <div class="container mx-auto px-4 py-6">
                         <div class="flex justify-end">
-                            <button class="p-2 hover:bg-blue-500 rounded" id="close-menu-button" aria-label="Close menu">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <button class="p-2 hover:bg-white/10 rounded-lg transition-colors" id="close-menu-button" aria-label="Close menu">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                                 </svg>
                             </button>
@@ -229,7 +217,7 @@
     <!-- Main Content -->
     <!-- Main Content -->
     <main class="flex-grow container mx-auto px-4 py-8">
-        
+
         <!-- Hero Section -->
 
         <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" navigation="true">
@@ -326,6 +314,9 @@
         </section>
     </main>
 
+    <!-- Additional Sections -->
+
+    <main class="container mx-auto px-4 py-8">
         <section class="why-choose-us mb-12 bg-white p-8 rounded-lg shadow">
             <h2 class="text-2xl font-semibold mb-6">Why Choose Us</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -403,31 +394,70 @@
         <!-- Contact Form Section -->
         <section class="contact-form mb-12 bg-white p-8 rounded-lg shadow">
             <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
-            <form action="/submit-contact" method="POST" class="space-y-4">
+            <form action="/submit-contact" method="POST" class="space-y-4" novalidate>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-gray-700 mb-2" for="name">Name</label>
-                        <input type="text" id="name" name="name" required
-                               class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                        <label class="block text-gray-700 mb-2" for="name">
+                            Name <span class="text-red-500">*</span>
+                        </label>
+                        <input type="text" 
+                            id="name" 
+                            name="name" 
+                            required 
+                            aria-required="true"
+                            minlength="2" 
+                            maxlength="50" 
+                            autocomplete="name"
+                            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                        <span class="text-red-500 text-sm hidden" id="name-error">Please enter a valid name</span>
                     </div>
                     <div>
-                        <label class="block text-gray-700 mb-2" for="email">Email</label>
-                        <input type="email" id="email" name="email" required
-                               class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                        <label class="block text-gray-700 mb-2" for="email">
+                            Email <span class="text-red-500">*</span>
+                        </label>
+                        <input type="email" 
+                            id="email" 
+                            name="email" 
+                            required 
+                            aria-required="true"
+                            autocomplete="email"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                        <span class="text-red-500 text-sm hidden" id="email-error">Please enter a valid email address</span>
                     </div>
                 </div>
                 <div>
-                    <label class="block text-gray-700 mb-2" for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone"
-                           class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                    <label class="block text-gray-700 mb-2" for="phone">
+                        Phone
+                    </label>
+                    <input type="tel" 
+                        id="phone" 
+                        name="phone"
+                        pattern="[0-9]{10,15}"
+                        autocomplete="tel"
+                        aria-label="Phone number"
+                        title="Please enter a valid phone number (10-15 digits)"
+                        class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
+                    <span class="text-red-500 text-sm hidden" id="phone-error">Please enter a valid phone number</span>
                 </div>
                 <div>
-                    <label class="block text-gray-700 mb-2" for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required
-                              class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"></textarea>
+                    <label class="block text-gray-700 mb-2" for="message">
+                        Message <span class="text-red-500">*</span>
+                    </label>
+                    <textarea id="message" 
+                            name="message" 
+                            rows="4" 
+                            required 
+                            aria-required="true"
+                            minlength="10" 
+                            maxlength="500"
+                            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"></textarea>
+                    <span class="text-red-500 text-sm hidden" id="message-error">Please enter a message (min 10 characters)</span>
                 </div>
                 <div class="text-right">
-                    <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+                    <button type="submit" 
+                            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+                            aria-label="Send message">
                         Send Message
                     </button>
                 </div>
@@ -442,7 +472,11 @@
                     <div class="p-4">
                         <h3 class="font-semibold mb-2">2024 Model Comparison</h3>
                         <p class="text-gray-600">Detailed comparison of latest models...</p>
-                    <!-- Footer -->
+                    </div>
+                </article>
+                <article class="bg-white rounded-2xl shadow overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjhS97jRNJO_EmjaxTa6zV5dyHHkf5UriNzw&s" alt="Car Comparison" class="w-full rounded-t-2xl object-cover">
+                    <div class="p-4">
                         <h3 class="font-semibold mb-2">2024 Model Comparison</h3>
                         <p class="text-gray-600">Detailed comparison of latest models...</p>
                     </div>
@@ -573,6 +607,8 @@
                     </div>
                 </div>
             </div>
+        </footer>
+    </main>
+
         </body>
-        </html>
         </html>
