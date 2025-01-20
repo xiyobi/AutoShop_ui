@@ -5,241 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e846ee2-370a-48cc-8143-73f63b586482" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/HasApiTokens.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon_io/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/dashboard/getUserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/utils/allFetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/create-quiz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/quizzes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/statistic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/update-quiz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/quiz/take_quiz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/AuthMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bin/var-dump-server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/graham-campbell/result-type/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/graham-campbell/result-type/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/graham-campbell/result-type/src/Error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/graham-campbell/result-type/src/Result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/graham-campbell/result-type/src/Success.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/.hound.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/roadmap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/larapack/dd/src/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/LazyOption.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/None.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Option.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Some.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap80.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/caseFolding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap80.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Php80.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/PhpToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Resources/stubs/Attribute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Resources/stubs/PhpToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Resources/stubs/Stringable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/Resources/stubs/ValueError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/AmqpCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ArgsStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/Caster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ClassStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ConstStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/CutArrayStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/CutStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DOMCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DateCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DsCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/DsPairStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/EnumStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/FFICaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/FiberCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/FrameStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/GmpCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ImagineCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ImgStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/IntlCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/LinkStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/MemcachedCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/MysqliCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PdoCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ProxyManagerCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/RdKafkaCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/RedisCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ResourceCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ScalarStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/StubCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/TraceStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/UninitializedStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/UuidCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/VirtualStub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/ClonerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Cursor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/DumperInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Internal/NoDefault.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Stub.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/VarCloner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/Descriptor/CliDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/Descriptor/DumpDescriptorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/Descriptor/HtmlDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Command/ServerDumpCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ContextProvider/CliContextProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ContextProvider/ContextProviderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ContextProvider/RequestContextProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ContextProvider/SourceContextProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ContextualizedDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/ServerDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/bin/var-dump-server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/css/htmlDescriptor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/functions/dump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/js/htmlDescriptor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Server/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Server/DumpServer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Test/VarDumperTestTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Dotenv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Exception/InvalidEncodingException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Exception/ValidationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Loader/Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Loader/LoaderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Loader/Resolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/Entry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/EntryParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/Lexer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/Lines.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/ParserInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Parser/Value.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReaderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/Adapter/WriterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Repository/RepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/File/Paths.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/File/Reader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/FileStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/StoreInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Store/StringStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Util/Regex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Util/Str.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/figma png and jpg/Photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product card.png" beforeDir="false" afterPath="$PROJECT_DIR$/figma png and jpg/Product card.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/figma png and jpg/home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image 55.png" beforeDir="false" afterPath="$PROJECT_DIR$/figma png and jpg/image 55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.png" beforeDir="false" afterPath="$PROJECT_DIR$/figma png and jpg/register.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/HasApiTokens.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/HasApiTokens.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/about.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon_io/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/create-quiz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/quizzes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/statistic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/update-quiz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/quiz/take_quiz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,36 +73,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/shehroz/autoShop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shehroz/autoShop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/views/auth" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/quiz-ui-Directory" />
-      <recent name="$PROJECT_DIR$/figma png and jpg" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -327,7 +127,9 @@
       <workItem from="1737182060871" duration="607000" />
       <workItem from="1737263903646" duration="13479000" />
       <workItem from="1737303589140" duration="2727000" />
-      <workItem from="1737306408791" duration="4567000" />
+      <workItem from="1737306408791" duration="4654000" />
+      <workItem from="1737348954510" duration="11289000" />
+      <workItem from="1737360316077" duration="1662000" />
     </task>
     <servers />
   </component>
