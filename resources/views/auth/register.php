@@ -7,7 +7,7 @@
     <meta name="keywords" content="car dealership, register, automotive, vehicles">
     <title>Register - Car Dealership</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="./style.css" rel="stylesheet">
+
 </head>
 <body class="bg-gray-100">
     <!-- Header Section -->
@@ -16,12 +16,12 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="h-8 w-auto" src="https://cdn-images.dzcdn.net/images/cover/54a37c8606fffcb09794b9ce5887f56d/1900x1900-000000-80-0-0.jpg" alt="Car Dealership">
                         </a>
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-                        <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Home</a>
+                        <a href="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Home</a>
                         <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Catalog</a>
                         <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">About</a>
                         <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Contact</a>
@@ -39,7 +39,7 @@
             <!-- Mobile menu -->
             <div class="sm:hidden hidden absolute inset-x-0 top-16 bg-slate-900 z-50" id="mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1">
-                    <a href="index.html" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Home</a>
+                    <a href="/" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Home</a>
                     <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Catalog</a>
                     <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">About</a>
                     <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Contact</a>
@@ -51,12 +51,12 @@
     <!-- Registration Form Section -->
     <main class="max-w-md mx-auto py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-white py-6 sm:py-8 px-4 sm:px-6 shadow rounded-lg sm:px-10">
-            <h2 class="mb-4 sm:mb-6 text-center text-2xl sm:text-3xl font-extrabold text-gray-900">Create your account</h2>
+            <h2 class="mb-4 sm:mb-6 text-center text-2xl sm:text-3xl font-extra bold text-gray-900">Create your account</h2>
             <form class="mb-0 space-y-6" action="#" method="POST" novalidate id="register-form" onsubmit="register()">
                 <div>
-                    <label for="full-name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
                     <div class="mt-1">
-                        <input id="full-name" name="full-name" type="text" required 
+                        <input id="full_name" name="full_name" type="text" required
                             class="appearance-none block w-full px-4 py-3 sm:py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-base sm:text-sm"
                             minlength="2" maxlength="50">
                     </div>
@@ -73,10 +73,12 @@
                 <div>
                     <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
                     <div class="mt-1">
-                        <input id="phone" name="phone" type="tel" required
-                            pattern="[0-9]{12}" 
-                            class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                            placeholder="998901234567">
+                        <label for="phone_number">
+
+                        </label><input id="phone_number" name="phone_number" type="tel" required
+                                                                 pattern="[0-9]{12}"
+                                                                 class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                                                                 placeholder="998901234567">
                     </div>
                 </div>
 

@@ -11,12 +11,12 @@
     <header class="bg-[#1E293B] shadow-md">
         <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
             <div class="flex items-center">
-                <a href="index.html" class="text-2xl font-bold text-white hover:text-blue-400">CarDealer</a>
+                <a href="/" class="text-2xl font-bold text-white hover:text-blue-400">CarDealer</a>
             </div>
             
             <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center space-x-8">
-                <a href="index.html" class="text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
+                <a href="/" class="text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
                 <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">Catalog</a>
                 <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">About</a>
                 <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">Contact</a>
@@ -33,7 +33,7 @@
         <!-- Mobile Navigation -->
         <div class="hidden md:hidden bg-[#1E293B] border-t border-gray-700" id="mobileMenu">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="index.html" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
+                <a href="/" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
                 <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Catalog</a>
                 <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">About</a>
                 <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Contact</a>
