@@ -2,8 +2,8 @@
 
 namespace Src;
 
-use Directory\app\Models\DB;
-use Directory\app\Models\User;
+use App\Models\DB;
+use App\Models\User;
 
 
 class Auth

@@ -104,7 +104,7 @@ class Router
     public static function notFound(string $route = 'api'): bool
     {
         if (self::isApiCall()) {
-            apiResponse(['error' => 'Not Found ishladi'], 404);
+            apiResponse(['error' => 'Not Found'], 404);
         }
         view('404');
     }
