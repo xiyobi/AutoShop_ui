@@ -6,39 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e846ee2-370a-48cc-8143-73f63b586482" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Traits/HasApiTokens.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/HasApiTokens.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/about.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon_io/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/create-quiz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/quizzes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/statistic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/update-quiz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/take_quiz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +14,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +54,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.composer&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -129,7 +98,8 @@
       <workItem from="1737303589140" duration="2727000" />
       <workItem from="1737306408791" duration="4654000" />
       <workItem from="1737348954510" duration="11289000" />
-      <workItem from="1737360316077" duration="1662000" />
+      <workItem from="1737360316077" duration="2974000" />
+      <workItem from="1737375354366" duration="1656000" />
     </task>
     <servers />
   </component>
