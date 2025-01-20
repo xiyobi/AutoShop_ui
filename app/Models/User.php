@@ -12,19 +12,23 @@ class  User extends DB
     /**
      * @throws RandomException
      */
-    public  function create(string $full_name, string $email, string $password, string $password_confirmation, string $phone_number): true
+    public  function create(string $full_name, string $email, string $phone_number, string $password): true
     {
-        $query = "INSERT INTO users (full_name, email, password,phone_number, updated_at, created_at) VALUES (:full_name, :email, :password,phone_number, NOW(), NOW())";
+        $query = "INSERT INTO users (full_name, email, phone_number, password, updated_at, created_at) VALUES (:full_name, :email, :phone_number, :password, NOW(), NOW())";
         $this->conn
             ->prepare($query)
             ->execute(
-                [':full_name' => $full_name, ':email' => $email, ':password' => password_hash($password, PASSWORD_DEFAULT),':phone_number'=>$phone_number
+                [':full_name' => $full_name, ':email' => $email ,':phone_number'=>$phone_number, ':password' => password_hash($password, PASSWORD_DEFAULT)
                 ]);
 
         $userId = $this->conn->lastInsertId();
         $this->createApiToken($userId);
         return true;
     }
+
+    /**
+     * @throws RandomException
+     */
     public function getUser(string $email, string $password): bool
     {
         $query = "SELECT * FROM users WHERE email = :email";
