@@ -11,7 +11,7 @@ class UserController
 {
     use Validator;
 
-    #[NoReturn] public function store(): void
+    public function store(): void
     {
         $userData = $this-> validate([
 
@@ -21,15 +21,14 @@ class UserController
             'password' => 'string',
 
         ]);
-
         $user = new User();
         $user->create($userData['full_name'],$userData['email'],$userData['phone_number'],$userData['password']);
         apiResponse(
             ['massage' => 'User created successfully',
                 'token'=>$user->api_token],
             200);
-    }
 
+    }
     #[NoReturn] public function  login(): void
     {
         $userData = $this-> validate([
