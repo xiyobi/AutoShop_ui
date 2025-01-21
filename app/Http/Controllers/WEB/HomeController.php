@@ -20,5 +20,9 @@ class HomeController
     {
         view("auth/register");
     }
+    public function productCard(): void
+    {
+        view("product-card");
+    }
 
 }
