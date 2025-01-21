@@ -6,7 +6,7 @@
     <title>YouCar</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 py-12">
 <!-- Header -->
 <header class="bg-white shadow-md">
     <div class="container mx-auto flex justify-between items-center py-4">
@@ -52,7 +52,9 @@
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
                             <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            <a href="/product-card"></a>
                         </div>
+
                         <!-- Item 2 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <img src="https://static.vecteezy.com/system/resources/thumbnails/023/192/562/small_2x/sport-car-running-on-the-road-in-future-city-created-with-generative-ai-free-photo.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
@@ -74,6 +76,7 @@
                 <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 <span class="hidden">Previous</span>
             </span>
+
                     </button>
                     <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
             <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -82,12 +85,12 @@
             </span>
                     </button>
                 </div>
-
                 <p class="mt-5">This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn
                     more
                     by going to the official <a class="text-blue-600 hover:underline"
                                                 href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
                 </p>
+
                 <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
             </div>
         </div>
@@ -134,6 +137,7 @@
 <section class="container mx-auto py-12">
     <h2 class="text-2xl font-bold text-gray-900 mb-6">Car Catalog</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Car Item -->
         <div class="bg-white shadow-md rounded-lg p-4">
             <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4">
             <h3 class="text-lg font-bold text-gray-900">Hyundai Solaris 2022</h3>
@@ -146,7 +150,8 @@
         </div>
         <div class="bg-white shadow-md rounded-lg p-4">
             <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4">
-            <h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3>
+            <a href="/product-card"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
+
             <p class="text-gray-700">180,000 $</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-4">
@@ -156,6 +161,123 @@
         </div>
     </div>
 </section>
+
+<div class="bg-gray-50">
+    <!-- Why Us Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Почему мы?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://m.media-amazon.com/images/I/51AoyitYeNL._AC_SL1001_.jpg" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Гарантия на все товары</h3>
+                    <p class="text-gray-600">Надежность под ключ</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQhMxmEcFMBdxMefSIBmPPDNGks5BwhD7EA&s" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Онлайн 24/7</h3>
+                    <p class="text-gray-600">Всегда готовы помочь</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://thumbs.dreamstime.com/b/car-f-342924264.jpg" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Удобный выбор авто</h3>
+                    <p class="text-gray-600">Широкий ассортимент</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://pgs.uz/imagess/delivery_3.png" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Доставка авто</h3>
+                    <p class="text-gray-600">Быстро и надежно</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">О нашей компании</h2>
+                <p class="text-gray-600 mb-6">
+                    Мы предлагаем широкий выбор автомобилей и аксессуаров. Выберите качество и надежность с нами!
+                </p>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-lg">Подробнее</button>
+            </div>
+            <div class="text-center py-12">
+                <img src="https://arton.uz/_next/image?url=%2Fimages%2Fflex-slider%2Fimg3.png&w=3840&q=100" alt="Company" class="mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Наши бренды</h2>
+            <div class="grid grid-cols-3 md:grid-cols-6 gap-6 py-6">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Новости</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 1</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
+                </div>
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 2</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
+                </div>
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 3</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Отзывы</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="https://www.gazeta.uz/media/img/2024/07/tk20vf17204152077436_l.jpg" alt="user_picture">
+                    <h3 class="text-lg font-semibold mb-2">Имя клиента</h3>
+                    <p class="text-gray-600 mb-4">Отзыв клиента.</p>
+                    <div class="flex space-x-1">
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-gray-300">⭐</span>
+                    </div>
+                </div>
+                <!-- Repeat for other reviews -->
+            </div>
+        </div>
+    </section>
+</div>
 
 <!-- Footer -->
 <footer class="bg-gray-800 text-white py-12">
