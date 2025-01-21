@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e846ee2-370a-48cc-8143-73f63b586482" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/product-card.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-card2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product-card.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,9 @@
       <workItem from="1737348954510" duration="11289000" />
       <workItem from="1737360316077" duration="2974000" />
       <workItem from="1737375354366" duration="7735000" />
-      <workItem from="1737433196225" duration="5566000" />
+      <workItem from="1737433196225" duration="9415000" />
+      <workItem from="1737461022272" duration="4957000" />
+      <workItem from="1737483292336" duration="1360000" />
     </task>
     <servers />
   </component>

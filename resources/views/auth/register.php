@@ -11,42 +11,6 @@
 </head>
 <body class="bg-gray-100">
     <!-- Header Section -->
-    <header class="bg-slate-900 relative">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex">
-                    <div class="flex-shrink-0 flex items-center">
-                        <a href="/">
-                            <img class="h-8 w-auto" src="https://cdn-images.dzcdn.net/images/cover/54a37c8606fffcb09794b9ce5887f56d/1900x1900-000000-80-0-0.jpg" alt="Car Dealership">
-                        </a>
-                    </div>
-                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-                        <a href="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Home</a>
-                        <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Catalog</a>
-                        <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">About</a>
-                        <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-2xl font-medium">Contact</a>
-                    </div>
-                </div>
-                <div class="sm:hidden flex items-center">
-                    <button type="button" class="text-gray-300 hover:text-white p-2" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <!-- Mobile menu -->
-            <div class="sm:hidden hidden absolute inset-x-0 top-16 bg-slate-900 z-50" id="mobile-menu">
-                <div class="px-2 pt-2 pb-3 space-y-1">
-                    <a href="/" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Home</a>
-                    <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Catalog</a>
-                    <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">About</a>
-                    <a href="#" class="text-gray-300 hover:text-white block px-3 py-4 rounded-md text-base font-medium">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <!-- Registration Form Section -->
     <main class="max-w-md mx-auto py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
@@ -111,36 +75,7 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-slate-900 mt-12">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-white text-lg font-semibold mb-4">Contact Us</h3>
-                    <p class="text-gray-300">Email: contact@cardealership.com</p>
-                    <p class="text-gray-300">Phone: +1 234 567 890</p>
-                </div>
-                <div>
-                    <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-300 hover:text-white">About Us</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Services</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-white text-lg font-semibold mb-4">Follow Us</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white">Facebook</a>
-                        <a href="#" class="text-gray-300 hover:text-white">Twitter</a>
-                        <a href="#" class="text-gray-300 hover:text-white">Instagram</a>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-8 border-t border-gray-700 pt-8">
-                <p class="text-center text-gray-400">&copy; 2024 Car Dealership. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+
 
     <script>
         // Mobile menu toggle

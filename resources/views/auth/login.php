@@ -6,42 +6,7 @@
     <title>Login - Car Dealership</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 min-h-screen flex flex-col">
-    <!-- Header Section -->
-    <header class="bg-[#1E293B] shadow-md">
-        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
-            <div class="flex items-center">
-                <a href="/" class="text-2xl font-bold text-white hover:text-blue-400">CarDealer</a>
-            </div>
-            
-            <!-- Desktop Navigation -->
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="/" class="text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
-                <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">Catalog</a>
-                <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">About</a>
-                <a href="#" class="text-gray-200 hover:text-blue-400 transition duration-150">Contact</a>
-            </div>
-            
-            <!-- Mobile Menu Button -->
-            <button class="md:hidden focus:outline-none text-white" id="menuButton">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-16 6h16"></path>
-                </svg>
-            </button>
-        </nav>
-        
-        <!-- Mobile Navigation -->
-        <div class="hidden md:hidden bg-[#1E293B] border-t border-gray-700" id="mobileMenu">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="/" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Home</a>
-                <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Catalog</a>
-                <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">About</a>
-                <a href="#" class="block px-3 py-2 text-gray-200 hover:text-blue-400 transition duration-150">Contact</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- Login Form Section -->
+<body class="bg-gray-200 min-h-screen flex flex-col">
     <main class="flex-grow container mx-auto px-4 py-8 flex items-center justify-center md:py-12">
         <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 md:p-12">
             <h2 class="text-2xl font-bold text-center mb-8">Login to Your Account</h2>
@@ -97,37 +62,7 @@
         </div>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="bg-gray-800 py-6 mt-auto text-white">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div>
-                    <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
-                    <p class="mb-2">Email: info@cardealer.com</p>
-                    <p>Phone: (123) 456-7890</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
-                    <ul class="space-y-1.5">
-                        <li><a href="#" class="hover:text-blue-400">About Us</a></li>
-                        <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
-                        <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
-                    <div class="flex space-x-6">
-                        <a href="#" class="hover:text-blue-400">Facebook</a>
-                        <a href="#" class="hover:text-blue-400">Twitter</a>
-                        <a href="#" class="hover:text-blue-400">Instagram</a>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-6 text-center text-sm text-gray-400">
-                <p>&copy; 2024 CarDealer. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+
     <script>
         async function login() {
             event.preventDefault();

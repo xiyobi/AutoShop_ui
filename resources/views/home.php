@@ -139,23 +139,22 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Car Item -->
         <div class="bg-white shadow-md rounded-lg p-4">
-            <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
             <h3 class="text-lg font-bold text-gray-900">Hyundai Solaris 2022</h3>
             <p class="text-gray-700">19,000 $</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-4">
-            <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 2" class="w-full rounded-lg mb-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
             <h3 class="text-lg font-bold text-gray-900">BMW 740</h3>
             <p class="text-gray-700">160,000 $</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-4">
-            <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4">
-            <a href="/product-card"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
 
             <p class="text-gray-700">180,000 $</p>
         </div>
         <div class="bg-white shadow-md rounded-lg p-4">
-            <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 4" class="w-full rounded-lg mb-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 3" class="w-full rounded-lg mb-4"><h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3></a>
             <h3 class="text-lg font-bold text-gray-900">Kia K5 2021</h3>
             <p class="text-gray-700">35,000 $</p>
         </div>
