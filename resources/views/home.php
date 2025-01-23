@@ -3,87 +3,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouCar Settings</title>
+    <title>YouCar</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 text-gray-900 py-12">
 <!-- Header -->
-<header class="bg-biscuit shadow-sm">
-    <div class="container mx-auto flex items-center justify-between px-4 py-3">
-        <h1 class="text-lg font-bold text-blue-600">YouCar</h1>
-        <nav class="flex items-center gap-4">
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Home</a>
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Catalog</a>
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Contacts</a>
-            <div class="flex items-center gap-2">
-                <span class="text-sm text-gray-600">Khamzat Kuseinovich</span>
-                <div class="w-8 h-8 rounded-full bg-gray-300"></div>
-            </div>
+<header class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center py-4">
+        <h1 class="text-2xl font-bold text-blue-600">YouCar</h1>
+        <nav>
+            <ul class="flex space-x-6 text-gray-700">
+                <li><a href="#" class="hover:text-blue-600">Home</a></li>
+                <li><a href="#" class="hover:text-blue-600">Catalog</a></li>
+                <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+                <li><a href="#" class="hover:text-blue-600">News</a></li>
+                <li><a href="#" class="hover:text-blue-600">Contacts</a></li>
+            </ul>
         </nav>
+        <div class="flex items-center space-x-4">
+            <label for="language-selector"></label><select class="border border-gray-300 rounded-md p-2" id="language-selector">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="uz">Oʻzbek</option>
+        </select>
+            <a href="/login" class="text-sm font-medium text-gray-700 hover:text-blue-600">Login</a>
+            <a href="/register" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</a>
+        </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container mx-auto grid grid-cols-12 gap-6 px-4 py-6">
-    <!-- Sidebar -->
-    <aside class="col-span-3 bg-white shadow rounded-lg p-4">
-        <div class="flex items-center gap-2 mb-6">
-            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
-            <div>
-                <p class="text-sm font-medium">Khamzat Kuseinovich</p>
-                <p class="text-xs text-gray-500">Rating: 5.0</p>
+<!-- Hero Section -->
+<section class="bg-blue-100 py-12 mx-auto">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 text-center md:text-left">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">NEW GEELY MONJARO!</h2>
+            <p class="text-gray-700 mb-6">Comfort. Softness. Brilliance. Geely's model stands out with design, materials, and technology.</p>
+            <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">Learn More</a>
+        </div>
+        <!--            <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Geely Monjaro" class="w-full rounded-lg shadow-md">-->
+
+        <!-- This is an example component -->
+        <div class="md:w-1/2 mt-8 md:mt-0 ">
+
+            <div id="default-carousel" class="relative" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+                        <img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/023/192/562/small_2x/sport-car-running-on-the-road-in-future-city-created-with-generative-ai-free-photo.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Sqy_Jx2ZJVmI60I_3fvj7TcNsCGFWuRPcA&s" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                <span class="hidden">Previous</span>
+            </span>
+
+                </button>
+                <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                <span class="hidden">Next</span>
+            </span>
+                </button>
+            </div>
+            <p class="mt-5">This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn
+                more
+                by going to the official <a class="text-blue-600 hover:underline"
+                                            href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
+            </p>
+
+            <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+        </div>
+    </div>
+</section>
+
+<!-- Car Selection -->
+<section class="container mx-auto py-12">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Car Selection</h2>
+    <div class="bg-white shadow-md rounded-lg p-6">
+        <form class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <label>
+                <select class="border border-gray-300 rounded-md p-2">
+                    <option>Geely</option>
+                    <option>Hyundai</option>
+                    <option>BMW</option>
+                </select>
+            </label>
+            <label>
+                <select class="border border-gray-300 rounded-md p-2">
+                    <option>Manjaro</option>
+                    <option>Solaris</option>
+                    <option>Series 7</option>
+                </select>
+            </label>
+            <label>
+                <select class="border border-gray-300 rounded-md p-2">
+                    <option>China</option>
+                    <option>Germany</option>
+                    <option>South Korea</option>
+                </select>
+            </label>
+            <label>
+                <input type="number" placeholder="Year" class="border border-gray-300 rounded-md p-2">
+            </label>
+            <label>
+                <input type="text" placeholder="Price" class="border border-gray-300 rounded-md p-2">
+            </label>
+            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Search</button>
+        </form>
+    </div>
+</section>
+
+<!-- Car Catalog -->
+<section class="container mx-auto py-12">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Car Catalog</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Car Item -->
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4"></a>
+            <h3 class="text-lg font-bold text-gray-900">Hyundai Solaris 2022</h3>
+            <p class="text-gray-700">19,000 $</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4"></a>
+            <h3 class="text-lg font-bold text-gray-900">BMW 740</h3>
+            <p class="text-gray-700">160,000 $</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4"></a>
+            <h3 class="text-lg font-bold text-gray-900">Mercedes-Benz S-Class</h3>
+            <p class="text-gray-700">180,000 $</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <a href="/product-card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/3c5d91ad-f15a-4645-afa9-4b158a2ccbda/7c0f1f2e1303456088b15eb4c90a45a5.jpeg" alt="Car 1" class="w-full rounded-lg mb-4"></a>
+            <h3 class="text-lg font-bold text-gray-900">Kia K5 2021</h3>
+            <p class="text-gray-700">35,000 $</p>
+        </div>
+    </div>
+</section>
+
+
+<div class="bg-gray-50">
+    <!-- Why Us Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Почему мы?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://m.media-amazon.com/images/I/51AoyitYeNL._AC_SL1001_.jpg" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Гарантия на все товары</h3>
+                    <p class="text-gray-600">Надежность под ключ</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQhMxmEcFMBdxMefSIBmPPDNGks5BwhD7EA&s" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Онлайн 24/7</h3>
+                    <p class="text-gray-600">Всегда готовы помочь</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://thumbs.dreamstime.com/b/car-f-342924264.jpg" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Удобный выбор авто</h3>
+                    <p class="text-gray-600">Широкий ассортимент</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 text-center">
+                    <img src="https://pgs.uz/imagess/delivery_3.png" alt="Icon" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Доставка авто</h3>
+                    <p class="text-gray-600">Быстро и надежно</p>
+                </div>
             </div>
         </div>
-        <ul class="space-y-4">
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⭐ Favorites</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">✉️ Messages</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">➕ Post an Ad</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚡ Subscription</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚙️ Account Settings</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-red-500">🚪 Log Out</a></li>
-        </ul>
-    </aside>
-
-    <!-- Settings Content -->
-    <main class="col-span-9 bg-white shadow rounded-lg p-6">
-        <h2 class="text-lg font-medium mb-6">Settings</h2>
-
-        <!-- Account Settings -->
-        <section class="mb-6">
-            <h3 class="text-sm font-semibold mb-4">Account</h3>
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <label class="text-xs text-gray-500">Name</label>
-                    <input type="text" value="Khamzat Kuseinovich" class="w-full border-gray-300 rounded-md shadow-sm mt-1">
+    </section>
+    <!-- About Us Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">О нашей компании</h2>
+                <p class="text-gray-600 mb-6">
+                    Мы предлагаем широкий выбор автомобилей и аксессуаров. Выберите качество и надежность с нами!
+                </p>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-lg">Подробнее</button>
+            </div>
+            <div class="text-center py-12">
+                <img src="https://arton.uz/_next/image?url=%2Fimages%2Fflex-slider%2Fimg3.png&w=3840&q=100" alt="Company" class="mx-auto">
+            </div>
+        </div>
+    </section>
+    <!-- Brands Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Наши бренды</h2>
+            <div class="grid grid-cols-3 md:grid-cols-6 gap-6 py-6">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+                <img src="https://www.autocarbrands.com/wp-content/uploads/2014/04/mercedesbenzlogo.jpg" alt="Brand" class="mx-auto">
+            </div>
+        </div>
+    </section>
+    <!-- News Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Новости</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 1</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
                 </div>
-                <div>
-                    <label class="text-xs text-gray-500">E-mail</label>
-                    <input type="email" value="khamzat.arslanaliyev@mail.ru" class="w-full border-gray-300 rounded-md shadow-sm mt-1">
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 2</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
+                </div>
+                <div class="bg-gray-100 shadow-lg rounded-lg p-6">
+                    <img src="https://www.shutterstock.com/image-photo/full-length-smiling-siblings-sitting-260nw-1895365093.jpg" alt="News" class="rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Новость 3</h3>
+                    <p class="text-gray-600 mb-4">Краткое описание новости.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Подробнее</a>
                 </div>
             </div>
-            <button class="mt-4 px-4 py-2 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600">Save</button>
-        </section>
-
-        <!-- Password Change -->
-        <section>
-            <h3 class="text-sm font-semibold mb-4">Change Password</h3>
-            <div class="grid grid-cols-3 gap-4">
-                <div>
-                    <label class="text-xs text-gray-500">Current Password</label>
-                    <input type="password" class="w-full border-gray-300 rounded-md shadow-sm mt-1">
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Отзывы</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="https://www.gazeta.uz/media/img/2024/07/tk20vf17204152077436_l.jpg" alt="user_picture">
+                    <h3 class="text-lg font-semibold mb-2">Имя клиента</h3>
+                    <p class="text-gray-600 mb-4">Отзыв клиента.</p>
+                    <div class="flex space-x-1">
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-yellow-500">⭐</span>
+                        <span class="text-gray-300">⭐</span>
+                    </div>
                 </div>
-                <div>
-                    <label class="text-xs text-gray-500">New Password</label>
-                    <input type="password" class="w-full border-gray-300 rounded-md shadow-sm mt-1">
-                </div>
-                <div>
-                    <label class="text-xs text-gray-500">Confirm Password</label>
-                    <input type="password" class="w-full border-gray-300 rounded-md shadow-sm mt-1">
-                </div>
+                <!-- Repeat for other reviews -->
             </div>
-            <button class="mt-4 px-4 py-2 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600">Save</button>
-        </section>
-    </main>
+        </div>
+    </section>
 </div>
 
 <!-- Footer -->
@@ -99,20 +286,20 @@
                 </h3>
                 <ul class="space-y-2">
                     <li><a href="/catalog" class="hover:text-blue-400">
-                            <span class="lang-en">Catalog</span>
-                            <span class="lang-ru">Каталог</span>
-                            <span class="lang-uz">Katalog</span>
-                        </a></li>
+                        <span class="lang-en">Catalog</span>
+                        <span class="lang-ru">Каталог</span>
+                        <span class="lang-uz">Katalog</span>
+                    </a></li>
                     <li><a href="/about" class="hover:text-blue-400">
-                            <span class="lang-en">About Us</span>
-                            <span class="lang-ru">О нас</span>
-                            <span class="lang-uz">Biz haqimizda</span>
-                        </a></li>
+                        <span class="lang-en">About Us</span>
+                        <span class="lang-ru">О нас</span>
+                        <span class="lang-uz">Biz haqimizda</span>
+                    </a></li>
                     <li><a href="/contacts" class="hover:text-blue-400">
-                            <span class="lang-en">Contacts</span>
-                            <span class="lang-ru">Контакты</span>
-                            <span class="lang-uz">Kontaktlar</span>
-                        </a></li>
+                        <span class="lang-en">Contacts</span>
+                        <span class="lang-ru">Контакты</span>
+                        <span class="lang-uz">Kontaktlar</span>
+                    </a></li>
                 </ul>
             </div>
 
@@ -151,15 +338,15 @@
                 </h3>
                 <ul class="space-y-2">
                     <li><a href="/privacy" class="hover:text-blue-400">
-                            <span class="lang-en">Privacy Policy</span>
-                            <span class="lang-ru">Политика конфиденциальности</span>
-                            <span class="lang-uz">Maxfiylik siyosati</span>
-                        </a></li>
+                        <span class="lang-en">Privacy Policy</span>
+                        <span class="lang-ru">Политика конфиденциальности</span>
+                        <span class="lang-uz">Maxfiylik siyosati</span>
+                    </a></li>
                     <li><a href="/terms" class="hover:text-blue-400">
-                            <span class="lang-en">Terms of Service</span>
-                            <span class="lang-ru">Условия использования</span>
-                            <span class="lang-uz">Foydalanish shartlari</span>
-                        </a></li>
+                        <span class="lang-en">Terms of Service</span>
+                        <span class="lang-ru">Условия использования</span>
+                        <span class="lang-uz">Foydalanish shartlari</span>
+                    </a></li>
                 </ul>
             </div>
 
@@ -195,5 +382,15 @@
         </div>
     </div>
 </footer>
+
+
+<script>
+    const languageSelector = document.getElementById('language-selector');
+    languageSelector.addEventListener('change', (event) => {
+        const selectedLanguage = event.target.value;
+        alert(Selected language: ${selectedLanguage});
+        // Add logic here for updating the page language dynamically
+    });
+</script>
 </body>
 </html>
