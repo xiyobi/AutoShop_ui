@@ -13,9 +13,8 @@
         <a href="/"><h1 class="text-2xl font-bold text-blue-600">YouCar</h1></a>
         <nav>
             <ul class="flex space-x-6 text-gray-700">
-                <li><a href="#" class="hover:text-blue-600">Home</a></li>
-                <li><a href="#" class="hover:text-blue-600">Catalog</a></li>
-                <li><a href="about" class="hover:text-blue-600">About Us</a></li>
+                <li><a href="/" class="hover:text-blue-600">Home</a></li>
+                <li><a href="/catalog" class="hover:text-blue-600">Catalog</a></li>
                 <li><a href="#" class="hover:text-blue-600">News</a></li>
                 <li><a href="#" class="hover:text-blue-600">Contacts</a></li>
             </ul>

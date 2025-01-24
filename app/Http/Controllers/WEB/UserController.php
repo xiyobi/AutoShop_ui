@@ -4,31 +4,22 @@ namespace App\Http\Controllers\WEB;
 
 class UserController
 {
-    public function home():void
+    public function about():void
     {
-        view('dashboard/home');
+        view('dashboard/about');
     }
-    public function create_quiz():void
+    public function accountSettings():void
     {
-        view('dashboard/create-quiz');
+        view('dashboard/account-settings');
     }
-    public function quizzes():void
+    public function listings():void
     {
-        view('dashboard/quizzes');
+        view('dashboard/listings');
     }
-    public function statistic():void
+    public function favorites():void
     {
-        view('dashboard/statistic');
+        view('dashboard/favorites');
     }
-    public function user():void
-    {
-        view('/dashboard/user');
-    }
-    public function update(int $id):void
-    {
-        view('dashboard/update-quiz',
-            ['id'=>$id]
-        );
-    }
+
 
 }

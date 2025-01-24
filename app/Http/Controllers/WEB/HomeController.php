@@ -12,6 +12,10 @@ class HomeController
     {
         view("about");
     }
+    public function catalog(): void
+    {
+        view("catalog");
+    }
     public function login(): void
     {
         view("auth/login");
@@ -24,5 +28,9 @@ class HomeController
     {
         view("product-card");
     }
+    public function favourites(): void
+        {
+            view("dashboard/favourites");
+        }
 
 }

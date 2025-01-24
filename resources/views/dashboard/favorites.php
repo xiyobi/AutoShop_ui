@@ -13,57 +13,70 @@
         }
     </style>
 </head>
-<body class="bg-gray-100">
-<!-- Header -->
-<header class="bg-biscuit shadow-sm">
-    <div class="container mx-auto flex items-center justify-between px-4 py-3">
-        <h1 class="text-lg font-bold text-blue-600">YouCar</h1>
-        <nav class="flex items-center gap-4">
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Home</a>
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Catalog</a>
-            <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-500">Contacts</a>
-            <div class="flex items-center gap-2">
-                <span class="text-sm text-gray-600">Khamzat Kuseinovich</span>
-                <div class="w-8 h-8 rounded-full bg-gray-300"></div>
-            </div>
-        </nav>
-    </div>
-</header>
-
-<!-- Main Content -->
-<div class="container mx-auto grid grid-cols-12 gap-6 px-4 py-6">
-    <!-- Sidebar -->
-    <aside class="col-span-3 bg-white shadow rounded-lg p-4">
-        <div class="flex items-center gap-2 mb-6">
-            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
-            <div>
-                <p class="text-sm font-medium">Khamzat Kuseinovich</p>
-                <p class="text-xs text-gray-500">Rating: 5.0</p>
+<div class="min-h-screen bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <nav class="flex space-x-6 text-gray-600">
+                <a href="#" class="hover:text-blue-500">Home</a>
+                <a href="#" class="hover:text-blue-500">Catalog</a>
+                <a href="#" class="hover:text-blue-500">About Us</a>
+                <a href="#" class="hover:text-blue-500">Contacts</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <input type="text" placeholder="Search" class="border rounded-lg px-4 py-2">
+                <span class="text-gray-600">+7 (777) 777-77-77</span>
+                <div class="flex items-center space-x-2">
+                    <span class="text-gray-600">Khazmat Arslaniyev</span>
+                    <div class="w-8 h-8 bg-gray-300 rounded-full"></div>
+                </div>
             </div>
         </div>
-        <ul class="space-y-4">
-            <li><a href="/favorites" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⭐ Favorites</a></li>
-            <li><a href="/about" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">✉️ Messages</a></li>
-            <li><a href="/listings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">➕ My Listings</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚡ Subscription</a></li>
-            <li><a href="/account-settings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚙️ Account Settings</a></li>
-            <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-red-500">🚪 Log Out</a></li>
-        </ul>
-    </aside>
+    </header>
 
-    <!-- Settings Content -->
-    <main class="col-span-9 bg-white shadow rounded-lg p-6">
-        <h2 class="text-lg font-medium mb-6">Favorites</h2>
-        <!-- Password Change -->
-        <section class="w-3/4 bg-white shadow rounded p-6 text-center">
-            <p class="text-gray-500">No saved ads</p>
-            <p class="text-gray-500 mb-6">To add a car to favorites, click the heart icon on the car card!</p>
-            <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Go to Catalog</a>
-        </section>
-    </main>
-</div>
+    <!-- Main Content -->
+    <div class="container mx-auto flex p-6 space-x-6">
+        <!-- Sidebar -->
+        <aside class="w-1/4 bg-white p-6 shadow rounded-lg">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                <div>
+                    <h2 class="font-bold text-gray-800">Khazmat Arslaniyev</h2>
+                    <p class="text-sm text-gray-500">Rating: 5.0</p>
+                </div>
+            </div>
+            <p class="mt-4 text-sm text-gray-500">khamzat.arslaniyev@mail.ru</p>
+            <p class="mt-2 text-blue-500">Basic Plan</p>
+            <nav class="mt-6 space-y-4 text-gray-600">
+                <ul class="space-y-4">
+                    <li><a href="/favorites" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⭐ Favorites</a></li>
+                    <li><a href="/about" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">✉️ Messages</a></li>
+                    <li><a href="/listings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">➕ My Listings</a></li>
+                    <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚡ Subscription</a></li>
+                    <li><a href="/account-settings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚙️ Account Settings</a></li>
+                    <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-red-500">🚪 Log Out</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-<!-- Footer -->
+        <!-- Main Content -->
+        <main class="flex-1">
+            <div class="bg-white shadow rounded-lg p-6">
+                <!-- Title and Tabs -->
+                <div class="flex justify-between items-center border-b pb-4">
+                    <h2 class="text-lg font-medium mb-6">Favorites</h2>
+                    <!-- Password Change -->
+                    <section class="w-3/4 bg-white shadow rounded p-6 text-center">
+                        <p class="text-gray-500">No saved ads</p>
+                        <p class="text-gray-500 mb-6">To add a car to favorites, click the heart icon on the car card!</p>
+                        <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Go to Catalog</a>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
 <footer class="bg-gray-800 text-white py-12 bottom-0">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -76,20 +89,20 @@
                 </h3>
                 <ul class="space-y-2">
                     <li><a href="/catalog" class="hover:text-blue-400">
-                        <span class="lang-en">Catalog</span>
-                        <span class="lang-ru">Каталог</span>
-                        <span class="lang-uz">Katalog</span>
-                    </a></li>
+                            <span class="lang-en">Catalog</span>
+                            <span class="lang-ru">Каталог</span>
+                            <span class="lang-uz">Katalog</span>
+                        </a></li>
                     <li><a href="/about" class="hover:text-blue-400">
-                        <span class="lang-en">About Us</span>
-                        <span class="lang-ru">О нас</span>
-                        <span class="lang-uz">Biz haqimizda</span>
-                    </a></li>
+                            <span class="lang-en">About Us</span>
+                            <span class="lang-ru">О нас</span>
+                            <span class="lang-uz">Biz haqimizda</span>
+                        </a></li>
                     <li><a href="/contacts" class="hover:text-blue-400">
-                        <span class="lang-en">Contacts</span>
-                        <span class="lang-ru">Контакты</span>
-                        <span class="lang-uz">Kontaktlar</span>
-                    </a></li>
+                            <span class="lang-en">Contacts</span>
+                            <span class="lang-ru">Контакты</span>
+                            <span class="lang-uz">Kontaktlar</span>
+                        </a></li>
                 </ul>
             </div>
 
@@ -128,15 +141,15 @@
                 </h3>
                 <ul class="space-y-2">
                     <li><a href="/privacy" class="hover:text-blue-400">
-                        <span class="lang-en">Privacy Policy</span>
-                        <span class="lang-ru">Политика конфиденциальности</span>
-                        <span class="lang-uz">Maxfiylik siyosati</span>
-                    </a></li>
+                            <span class="lang-en">Privacy Policy</span>
+                            <span class="lang-ru">Политика конфиденциальности</span>
+                            <span class="lang-uz">Maxfiylik siyosati</span>
+                        </a></li>
                     <li><a href="/terms" class="hover:text-blue-400">
-                        <span class="lang-en">Terms of Service</span>
-                        <span class="lang-ru">Условия использования</span>
-                        <span class="lang-uz">Foydalanish shartlari</span>
-                    </a></li>
+                            <span class="lang-en">Terms of Service</span>
+                            <span class="lang-ru">Условия использования</span>
+                            <span class="lang-uz">Foydalanish shartlari</span>
+                        </a></li>
                 </ul>
             </div>
 
@@ -148,9 +161,9 @@
                     <span class="lang-uz">Til</span>
                 </h3>
                 <select
-                        id="footer-language-selector"
-                        class="bg-gray-700 text-white border border-gray-600 rounded px-4 py-2 w-full"
-                        aria-label="Select Language"
+                    id="footer-language-selector"
+                    class="bg-gray-700 text-white border border-gray-600 rounded px-4 py-2 w-full"
+                    aria-label="Select Language"
                 >
                     <option value="en">English</option>
                     <option value="ru">Русский</option>
@@ -172,5 +185,5 @@
         </div>
     </div>
 </footer>
-</body>
+</div>
 </html>

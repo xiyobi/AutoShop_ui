@@ -18,10 +18,9 @@
             <ul class="flex items-center gap-4 space-x-4">
                 <li><a href="#" id="home-link" class="text-gray-700 hover:text-blue-500">Home</a></li>
                 <li><a href="#" id="catalog-link" class="text-gray-700 hover:text-blue-500">Catalog</a></li>
-                <li><a href="/about" id="about-link" class="text-gray-700 hover:text-blue-500">About Us</a></li>
                 <li><a href="#" id="contact-link" class="text-gray-700 hover:text-blue-500">Contact</a></li>
                 <div class="flex items-center">
-                    <select id="language-switcher" class="bg-white text-gray-700 p-2 rounded">
+                    <label for="language-switcher"></label><select id="language-switcher" class="bg-white text-gray-700 p-2 rounded">
                         <option value="en" selected>English</option>
                         <option value="uz">O'zbekcha</option>
                     </select>

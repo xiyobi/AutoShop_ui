@@ -5,17 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfc126b-7892-4b14-a982-bf48892c322a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/Katalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/account-settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product-card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Status Bar-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/image 55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Адаптив-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Архив .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Внутрення стр Новости.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Вход.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Главная.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Данные.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Карточка товара.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Каталог.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Контакты.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- Евдомления-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- Евдомления-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- Евдомления.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- Избранные-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- Избранные.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Личный кабинет- чат.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Мои объявления.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Мотоциклы.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Новости.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Почта для восстановления-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Почта для восстановления.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Разместить объявление-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Разместить объявление-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Разместить объявление-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Разместить объявление-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Разместить объявление.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Регистрация.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/Электромобили.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/уведомления-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avtoSaytFidmaJpg/уведомления.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +119,8 @@
       <workItem from="1737695298524" duration="18000" />
       <workItem from="1737695522048" duration="100000" />
       <workItem from="1737699043146" duration="3463000" />
-      <workItem from="1737708459874" duration="1221000" />
+      <workItem from="1737708459874" duration="1571000" />
+      <workItem from="1737721143530" duration="1247000" />
     </task>
     <servers />
   </component>
