@@ -16,7 +16,7 @@
     <main class="max-w-md mx-auto py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-white py-6 sm:py-8 px-4 sm:px-6 shadow rounded-lg sm:px-10">
             <h2 class="mb-4 sm:mb-6 text-center text-2xl sm:text-3xl font-extra bold text-gray-900">Create your account</h2>
-            <form class="mb-0 space-y-6" action="#" method="POST" novalidate id="register-form" onsubmit="register()">
+            <form class="mb-0 space-y-6" action="/account-settings" method="POST" novalidate id="register-form" onsubmit="register()">
                 <div>
                     <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
                     <div class="mt-1">

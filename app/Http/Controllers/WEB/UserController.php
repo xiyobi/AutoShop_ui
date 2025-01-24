@@ -20,9 +20,9 @@ class UserController
     {
         view('dashboard/statistic');
     }
-    public function take_quiz():void
+    public function user():void
     {
-        view('/quiz/take_quiz');
+        view('/dashboard/user');
     }
     public function update(int $id):void
     {

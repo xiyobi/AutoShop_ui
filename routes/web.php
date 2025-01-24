@@ -11,6 +11,8 @@ Router::get('/login', [HomeController::class, 'login']);
 Router::get('/register', [HomeController::class, 'register']);
 Router::get('/product-card', [HomeController::class, 'productCard']);
 
+Router::post('/user', [UserController::class, 'user']);
+
 
 
 

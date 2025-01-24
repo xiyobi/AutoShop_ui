@@ -7,24 +7,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
-<!-- Language Switcher -->
-<div class="absolute top-4 right-4">
-    <select id="language-switcher" class="bg-white text-gray-700 p-2 rounded">
-        <option value="en" selected>English</option>
-        <option value="uz">O'zbekcha</option>
-    </select>
-</div>
+
+
 
 <!-- Header -->
 <header class="bg-white shadow">
     <div class="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 id="header-title" class="text-xl font-bold">YourAuto</h1>
+        <a href="/">  <h1 id="header-title" class="text-xl font-bold">YourAuto</h1></a>
         <nav>
-            <ul class="flex space-x-4">
+            <ul class="flex items-center gap-4 space-x-4">
                 <li><a href="#" id="home-link" class="text-gray-700 hover:text-blue-500">Home</a></li>
                 <li><a href="#" id="catalog-link" class="text-gray-700 hover:text-blue-500">Catalog</a></li>
-                <li><a href="#" id="about-link" class="text-gray-700 hover:text-blue-500">About Us</a></li>
+                <li><a href="/about" id="about-link" class="text-gray-700 hover:text-blue-500">About Us</a></li>
                 <li><a href="#" id="contact-link" class="text-gray-700 hover:text-blue-500">Contact</a></li>
+                <div class="flex items-center">
+                    <select id="language-switcher" class="bg-white text-gray-700 p-2 rounded">
+                        <option value="en" selected>English</option>
+                        <option value="uz">O'zbekcha</option>
+                    </select>
+                </div>
             </ul>
         </nav>
     </div>

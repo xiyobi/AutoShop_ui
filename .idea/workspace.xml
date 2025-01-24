@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e846ee2-370a-48cc-8143-73f63b586482" name="Changes" comment="">
+    <list default="true" id="bbfc126b-7892-4b14-a982-bf48892c322a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/Katalog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/account-settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WEB/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product-card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +24,7 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <interpreter composer="composer" />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +43,10 @@
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2rmm51OLkPLk4XAm4QRYiI87J4R" />
+  <component name="ProjectId" id="2s3rqzkcrhsW0rNGbz4aWLRuDYy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,33 +57,15 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/shehroz/autoShop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.composer&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/resources/views/auth" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/quiz-ui-Directory" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,29 +75,20 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="PHP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e846ee2-370a-48cc-8143-73f63b586482" name="Changes" comment="" />
-      <created>1737172438223</created>
+      <changelist id="bbfc126b-7892-4b14-a982-bf48892c322a" name="Changes" comment="" />
+      <created>1737695296653</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737172438223</updated>
-      <workItem from="1737172439385" duration="8398000" />
-      <workItem from="1737181410990" duration="616000" />
-      <workItem from="1737182060871" duration="607000" />
-      <workItem from="1737263903646" duration="13479000" />
-      <workItem from="1737303589140" duration="2727000" />
-      <workItem from="1737306408791" duration="4654000" />
-      <workItem from="1737348954510" duration="11289000" />
-      <workItem from="1737360316077" duration="2974000" />
-      <workItem from="1737375354366" duration="7735000" />
-      <workItem from="1737433196225" duration="9415000" />
-      <workItem from="1737461022272" duration="4957000" />
-      <workItem from="1737483292336" duration="1425000" />
-      <workItem from="1737539446196" duration="676000" />
-      <workItem from="1737548573191" duration="155000" />
-      <workItem from="1737559400155" duration="1029000" />
-      <workItem from="1737646537628" duration="337000" />
+      <updated>1737695296653</updated>
+      <workItem from="1737695298524" duration="18000" />
+      <workItem from="1737695522048" duration="100000" />
+      <workItem from="1737699043146" duration="3463000" />
+      <workItem from="1737708459874" duration="1221000" />
     </task>
     <servers />
   </component>
