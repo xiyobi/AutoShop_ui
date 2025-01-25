@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouCar Settings</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .bottom-0{
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
 </head>
 <div class="min-h-screen bg-gray-100">
     <!-- Header -->
@@ -49,12 +42,7 @@
             <p class="mt-2 text-blue-500">Basic Plan</p>
             <nav class="mt-6 space-y-4 text-gray-600">
                 <ul class="space-y-4">
-                    <li><a href="/favorites" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⭐ Favorites</a></li>
-                    <li><a href="/about" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">✉️ Messages</a></li>
-                    <li><a href="/listings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">➕ My Listings</a></li>
-                    <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚡ Subscription</a></li>
-                    <li><a href="/account-settings" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-500">⚙️ Account Settings</a></li>
-                    <li><a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-red-500">🚪 Log Out</a></li>
+                    <?php require '../resources/views/components/sidebar.php'; ?>
                 </ul>
             </nav>
         </aside>

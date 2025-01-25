@@ -6,7 +6,7 @@ class UserController
 {
     public function about():void
     {
-        view('dashboard/about');
+        view('dashboard/message');
     }
     public function accountSettings():void
     {
