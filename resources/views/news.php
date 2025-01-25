@@ -15,16 +15,16 @@
                 <ul class="flex space-x-6 text-gray-700">
                     <li><a href="/" class="hover:text-blue-600">Home</a></li>
                     <li><a href="/catalog" class="hover:text-blue-600">Catalog</a></li>
-                    <li><a href="#" class="hover:text-blue-600">News</a></li>
+                    <li><a href="/news" class="hover:text-blue-600">News</a></li>
                     <li><a href="/contacts" class="hover:text-blue-600">Contacts</a></li>
                 </ul>
             </nav>
             <div class="flex items-center space-x-4">
                 <label for="language-selector"></label><select class="border border-gray-300 rounded-md p-2" id="language-selector">
-                <option value="en">English</option>
-                <option value="ru">Русский</option>
-                <option value="uz">Oʻzbek</option>
-            </select>
+                    <option value="en">English</option>
+                    <option value="ru">Русский</option>
+                    <option value="uz">Oʻzbek</option>
+                </select>
                 <a href="/login" class="text-sm font-medium text-gray-700 hover:text-blue-600">Login</a>
                 <a href="/register" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</a>
             </div>
@@ -85,20 +85,20 @@
                     </h3>
                     <ul class="space-y-2">
                         <li><a href="/catalog" class="hover:text-blue-400">
-                            <span class="lang-en">Catalog</span>
-                            <span class="lang-ru">Каталог</span>
-                            <span class="lang-uz">Katalog</span>
-                        </a></li>
+                                <span class="lang-en">Catalog</span>
+                                <span class="lang-ru">Каталог</span>
+                                <span class="lang-uz">Katalog</span>
+                            </a></li>
                         <li><a href="/about" class="hover:text-blue-400">
-                            <span class="lang-en">About Us</span>
-                            <span class="lang-ru">О нас</span>
-                            <span class="lang-uz">Biz haqimizda</span>
-                        </a></li>
+                                <span class="lang-en">About Us</span>
+                                <span class="lang-ru">О нас</span>
+                                <span class="lang-uz">Biz haqimizda</span>
+                            </a></li>
                         <li><a href="/contacts" class="hover:text-blue-400">
-                            <span class="lang-en">Contacts</span>
-                            <span class="lang-ru">Контакты</span>
-                            <span class="lang-uz">Kontaktlar</span>
-                        </a></li>
+                                <span class="lang-en">Contacts</span>
+                                <span class="lang-ru">Контакты</span>
+                                <span class="lang-uz">Kontaktlar</span>
+                            </a></li>
                     </ul>
                 </div>
 
@@ -137,15 +137,15 @@
                     </h3>
                     <ul class="space-y-2">
                         <li><a href="/privacy" class="hover:text-blue-400">
-                            <span class="lang-en">Privacy Policy</span>
-                            <span class="lang-ru">Политика конфиденциальности</span>
-                            <span class="lang-uz">Maxfiylik siyosati</span>
-                        </a></li>
+                                <span class="lang-en">Privacy Policy</span>
+                                <span class="lang-ru">Политика конфиденциальности</span>
+                                <span class="lang-uz">Maxfiylik siyosati</span>
+                            </a></li>
                         <li><a href="/terms" class="hover:text-blue-400">
-                            <span class="lang-en">Terms of Service</span>
-                            <span class="lang-ru">Условия использования</span>
-                            <span class="lang-uz">Foydalanish shartlari</span>
-                        </a></li>
+                                <span class="lang-en">Terms of Service</span>
+                                <span class="lang-ru">Условия использования</span>
+                                <span class="lang-uz">Foydalanish shartlari</span>
+                            </a></li>
                     </ul>
                 </div>
 
@@ -157,9 +157,9 @@
                         <span class="lang-uz">Til</span>
                     </h3>
                     <select
-                            id="footer-language-selector"
-                            class="bg-gray-700 text-white border border-gray-600 rounded px-4 py-2 w-full"
-                            aria-label="Select Language"
+                        id="footer-language-selector"
+                        class="bg-gray-700 text-white border border-gray-600 rounded px-4 py-2 w-full"
+                        aria-label="Select Language"
                     >
                         <option value="en">English</option>
                         <option value="ru">Русский</option>
@@ -172,9 +172,9 @@
             <div class="mt-12 pt-8 border-t border-gray-700 text-sm text-gray-400">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <p>© 2024 YouCar. All rights reserved.</p>
-                    <a href="#" class="hover:text-blue-500">Catalog</a>
-                    <a href="#" class="hover:text-blue-500">News</a>
-                    <a href="#" class="hover:text-blue-500">Contacts</a>
+                    <a href="/catalog" class="hover:text-blue-500">Catalog</a>
+                    <a href="/news" class="hover:text-blue-500">News</a>
+                    <a href="/contacts" class="hover:text-blue-500">Contacts</a>
                 </div>
             </div>
         </div>

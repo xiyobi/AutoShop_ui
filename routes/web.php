@@ -10,7 +10,8 @@ Router::get('/catalog', [HomeController::class, 'catalog']);
 Router::get('/login', [HomeController::class, 'login']);
 Router::get('/register', [HomeController::class, 'register']);
 Router::get('/product-card', [HomeController::class, 'productCard']);
-Router::get('/favourites', [HomeController::class, 'favourites']);
+Router::get('/contacts', [HomeController::class, 'contacts']);
+Router::get('/news', [HomeController::class, 'news']);
 
 Router::get('/dashboard', [UserController::class, 'about']);
 Router::get('/dashboard/account-settings', [UserController::class, 'accountSettings']);

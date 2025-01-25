@@ -15,8 +15,8 @@
             <ul class="flex space-x-6 text-gray-700">
                 <li><a href="/" class="hover:text-blue-600">Home</a></li>
                 <li><a href="/catalog" class="hover:text-blue-600">Catalog</a></li>
-                <li><a href="#" class="hover:text-blue-600">News</a></li>
-                <li><a href="#" class="hover:text-blue-600">Contacts</a></li>
+                <li><a href="/news" class="hover:text-blue-600">News</a></li>
+                <li><a href="/contacts" class="hover:text-blue-600">Contacts</a></li>
             </ul>
         </nav>
         <div class="flex items-center space-x-4">

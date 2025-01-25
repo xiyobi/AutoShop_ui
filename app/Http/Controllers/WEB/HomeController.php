@@ -28,9 +28,13 @@ class HomeController
     {
         view("product-card");
     }
-    public function favourites(): void
+    public function contacts(): void
         {
-            view("dashboard/favourites");
+            view("/contacts");
         }
+    public function news(): void
+            {
+                view("/news");
+            }
 
 }
